@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@mipmap/backk"
+    android:alpha="0.8">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:alpha="0.6"
+        />
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="178dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:background="@drawable/input_shape"/>
+
+    <EditText
+        android:id="@+id/adusername"
+        android:layout_width="280sp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:background="@color/colorPrimary"
+        android:alpha="0.6"/>
+
+
+    <EditText
+        android:id="@+id/adpassowrd"
+        android:layout_width="280sp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:background="@color/colorPrimary"
+        android:alpha="0.6"/>
+
+    <Button
+        android:id="@+id/btn_ad_login"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textSize="18sp" />
+
+
+
+
+
+
+</LinearLayout>

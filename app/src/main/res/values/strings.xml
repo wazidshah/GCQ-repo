@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ami GCQ</string>
+    <string name="home">HOME</string>
+    <string-array name="optionss">
+        <item>STUDENT</item>
+        <item>TEACHERS</item>
+    </string-array>
+</resources>

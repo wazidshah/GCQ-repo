@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slider"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:auto_cycle="true"
+        app:corner_radius="20"
+        app:delay="0"
+        app:error_image="@drawable/load"
+        app:period="1000"
+        app:placeholder="@drawable/load"
+        />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210sp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:text="About Us:"
+                    android:textColor="#79140C"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="324dp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginTop="10sp"
+                            android:layout_marginRight="100sp"
+                            android:scrollbars="vertical"
+                            android:text="Our College is located at 2 kms. from Quepem town. It is far away from the hustle and bustle of city life, situated in the vicinity of verdant fields. Tranquility and solitude are the striking features of the location. This ambience offers an ideal setting to nurture our students in terms of their heads, hands and hearts.  The College is affiliated to Goa University and recognised by the University Grants Commission (U.G.C.), New Delhi, under section 2(f) and 12(B) of the UGC Act, 1956. The College has an Advisory Committee managed by the Govt. of Goa. The Principal is the Chief Executive Officer (CEO) of the College.  Government College of Arts, Science and Commerce, Quepem has been awarded A Grade with a CGPA score of 3.23 by NAAC in March 2016. With this achievement, Govt. College, Quepem now ranks 3rd in Colleges across Goa and takes pole position among the Government Colleges of Goa." />
+                    </LinearLayout>
+                </ScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You can Find Us at location:-"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/launchmap"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="center"
+                    android:onClick="process"
+                    app:srcCompat="@drawable/mapie" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/loginf_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="280sp"
+        android:layout_marginTop="500sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:elevation="6sp"
+        android:src="@drawable/ic_mail_black_24dp"
+        app:fabSize="normal" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginLeft="280sp"
+        android:layout_marginTop="120sp"
+        android:backgroundTint="@color/material_on_primary_emphasis_medium"
+        android:elevation="6sp"
+        android:src="@drawable/loginlogo"
+        app:fabSize="normal" />
+
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "828724930176",
+    "firebase_url": "https://amigcqmain.firebaseio.com",
+    "project_id": "amigcqmain",
+    "storage_bucket": "amigcqmain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828724930176:android:6aac606d6d2d4ea7972865",
+        "android_client_info": {
+          "package_name": "com.example.collegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828724930176-ptri1b8fdb3t5p5a4f432k7m4gphbe1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeapp",
+            "certificate_hash": "c22fd1dcd5e5a4672951be6dee478339243888d8"
+          }
+        },
+        {
+          "client_id": "828724930176-jct36p7pluog46a5tckd53gq6uqjlie3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeapp",
+            "certificate_hash": "da86bf8ca63f1ec96bff21521d59a4930d83fc4a"
+          }
+        },
+        {
+          "client_id": "828724930176-vlvk90vb9k0427rvah16oonnet3j4lcf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeapp",
+            "certificate_hash": "c16e083a00b1cc304739f8c8d1d0420902edc92c"
+          }
+        },
+        {
+          "client_id": "828724930176-u402hjidpri6s2jsogieikgolcssllnm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeapp",
+            "certificate_hash": "5290f178caaa1ea2c7bdb73807c00f61d9a51ec6"
+          }
+        },
+        {
+          "client_id": "828724930176-fpbbl8svhvtsboqt4av40eii8mms5g31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeapp",
+            "certificate_hash": "568096992388bd5cc0f809917bf6ce7279587983"
+          }
+        },
+        {
+          "client_id": "828724930176-7ir3g7uo6qachjdqb3bnrht6eqhktmpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeapp",
+            "certificate_hash": "559f02ca8df4e3a68983a20636616f07837de811"
+          }
+        },
+        {
+          "client_id": "828724930176-sn407nemufkcg24dvpj06lii0u6q8ul9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeapp",
+            "certificate_hash": "ce460da626ccfb37669bb61a56dac591568081f8"
+          }
+        },
+        {
+          "client_id": "828724930176-q712pheoq86b308rdmj6ghcfdi7uakkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegeapp",
+            "certificate_hash": "ff3eebbe9ddf73c52e28dcf19c524c82b5f37f6e"
+          }
+        },
+        {
+          "client_id": "828724930176-5s5kvtfsn6ijc5fdp8u7h4q0hhpo2slq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3QV3bUmR4RvbC1h1nlm2MeqeGLdrBEgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828724930176-5s5kvtfsn6ijc5fdp8u7h4q0hhpo2slq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
